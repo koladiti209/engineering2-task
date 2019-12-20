@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/****************************
+google clone css code begins*
+****************************/
+
+/****************************
+general settings*************
+****************************/
+a{
+	text-decoration: none;
+}
+
+
+/****************************
+header
+****************************/
+
+header {
+	
+}
+
+.headButtons{
+	text-align: right;
+	margin-top: 17px;
+	margin-right: 30px;
+}
+.headButtons li:nth-child(n+3):hover{
+	border-bottom:1px solid;
+	color:black;
+}
+
+header ul li {
+	display:inline-block;
+	margin:5px;
+	font-family: sans-serif;
+	font-size:14px;
+}
+
+ul li img{
+	margin-bottom: -7px;
+	opacity: 0.6;
+}
+
+ul li img:hover{
+	opacity:1;
+}
+
+
+	/****************************
+	sign-in
+	****************************/
+	.signIn{
+		border:1px solid;
+		border-radius: 10%;
+		color:white;
+		background-color: #6666FF;
+		padding:7px 13px;
+
+		margin-top: 15px;
+		font-weight: bold;
+		font-size: 13px
+	}
+
+/****************************
+section
+****************************/
+section{
+	
+	height:400px;
+}
+.googleImage{
+	margin-top: 150px;
+	margin-left: 500px;
+	margin-bottom: 10px;
+}
+		/****************************
+		search keys
+		****************************/
+
+		.searchButtonsDiv{
+			/*background-color: green;*/
+			text-align: center;
+			padding-top: 10px;
+		}
+
+		.searchButtons li{
+			font-size: 11px;
+			font-weight: bold;
+			font-family:sans-serif;
+			text-align: center;
+			display:inline-block;
+			margin:5px 9px;
+			border:1px solid #DDDDDD;
+			color:#444444;
+			border-radius: 5%;
+
+			padding:8px 9px;
+			background-color:#EEEEEE;
+		}
+input{
+	width:45%;
+	margin-top: 13px;
+	margin-left:350px;
+	height:24px;
+	border-radius: 1%;
+	border:1px;
+	border-style:solid;
+	border-color:lightgray;
+	background: url(img/mic.png) no-repeat right;
+}
+input:hover{
+	border-color: #aaaaaa;
+}
+/****************************
+other offering links
+****************************/
+.otherLinksDiv{
+	/*background-color: yellow;*/
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+.offerLinks li{
+
+	text-align: center;
+	display:inline-block;
+	font-family: sans-serif;
+	font-size: 13px;
+	margin:3px;
+}
+.offerLinks>li:nth-child(n+2){
+	color:blue;
+}
+
+/****************************
+footer
+****************************/
+footer{
+	height:45px;
+	background-color:#EEEEEE;
+	margin-top:100px;
+}
+.adverts li{
+	
+	text-align: left;
+	display:inline-block;
+	float:left;
+	margin:12px;
+	color:#777777;
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 8px 0px 2px 2px;
+} 
+.adverts>li:first-child{
+	margin-left: 30px;
+}
+.adverts>li:nth-child(n+1):hover{
+	border-bottom:1px solid;
+	
+}
+
+.settings li{
+	text-align: right;
+	display:inline-block;
+	float:right;
+	margin:12px;
+	color:#777777;
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 4px 0px;
+}
+.settings>li:first-child{
+	margin-right:28px;
+}
+.settings>li:nth-child(n+1):hover{
+	border-bottom:1px solid;
+	
+}
